@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "204845642263",
+    "project_id": "mazika-c11c9",
+    "storage_bucket": "mazika-c11c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204845642263:android:2d4822c14da953b8206252",
+        "android_client_info": {
+          "package_name": "com.music.mazika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "204845642263-cdovo99khm7ah1g9uda997f20rgsg70h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkCHmxFjyjoi2i7FRDhiEJ7_mMRqSBAVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "204845642263-cdovo99khm7ah1g9uda997f20rgsg70h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

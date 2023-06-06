@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_10sdp"
+        android:layout_margin="@dimen/_5sdp"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <CheckBox
+            android:id="@+id/check_song_item_mazika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_item_mazika"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/music"
+            android:layout_toEndOf="@id/check_song_item_mazika"
+            android:layout_margin="@dimen/_5sdp"
+            />
+
+        <TextView
+            android:id="@+id/txt_title_item_mazika"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_below="@id/animation_item_mazika"
+            android:layout_centerHorizontal="true"
+            />
+
+    </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

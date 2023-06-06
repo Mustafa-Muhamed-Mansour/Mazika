@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".home.HomeFragment">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/r_v_mazika"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/img_play"
+            android:layout_marginBottom="@dimen/_5sdp"
+            />
+
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            />
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/linear_media"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--          -->
+<!--            android:orientation="horizontal"-->
+<!--            >-->
+
+<!--            -->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/img_stop"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_margin="@dimen/_3sdp"-->
+<!--                android:src="@drawable/stop" />-->
+
+<!--        </LinearLayout>-->
+
+
+    </RelativeLayout>
+</layout>
